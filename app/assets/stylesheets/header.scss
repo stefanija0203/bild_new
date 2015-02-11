@@ -1,0 +1,36 @@
+body {
+  font-family: "Ubuntu";
+}
+
+.container {
+  width: 980px;
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  background-color: #012638;
+  
+  .nav {
+    li a {
+      color: #ffffff;
+    }
+    li:last-child a {
+      color: #3495c0;
+    }
+    li a:hover, li a:focus {
+      background-color: #013751;
+      color: #ffffff;
+    }
+  }
+
+  .logo {
+    a {
+      line-height: 50px;
+
+      img {
+        width: 140px;
+      }
+    }  
+  }
+}
