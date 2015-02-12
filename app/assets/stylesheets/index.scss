@@ -250,6 +250,24 @@ $darkblue: #012638;
         }
       }
     }
+  }
 
+  .about_us {
+    background-color: #e6e6e6;
+    .nav {
+      padding: 0px 20px;
+      a {  
+        color: #050505;
+        font-size: 17px;
+        padding: 30px 25px;
+        i {
+          color: #0199e4;
+          font-size: 22px;
+          margin-right: 15px;
+          vertical-align: text-top;
+        }
+      }
+
+    }
   }
 } 
