@@ -23,6 +23,19 @@ header {
       background-color: #013751;
       color: #ffffff;
     }
+    .active a {
+      background-color: #0099e1;
+      color: #012638;
+      &:hover {
+        background-color: #0099e1;
+        color: #012638;
+      }
+    }
+    li:first-child.active a {
+      background-color: #012638 !important;
+      color: #ffffff !important;
+    }
+
   }
 
   .logo {
