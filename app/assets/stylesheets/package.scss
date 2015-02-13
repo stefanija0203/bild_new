@@ -22,4 +22,35 @@
       } 
     }  
   }
+
+  .template {
+    h1 {
+      color: $orange;
+      font-weight: bold;
+      font-style: italic;
+    }
+    .row {
+      height: 120px;
+    }
+    .all {
+      height: 100%;
+      border-left: 1px solid #d6d6d6;
+      border-right: 1px solid #d6d6d6;
+      padding-top: 25px;
+
+      a {
+        color: #767676;
+        text-align: center;
+
+        i {
+          margin-left: 40px;
+          margin-bottom: 15px;
+        }
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
