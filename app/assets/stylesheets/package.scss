@@ -24,16 +24,16 @@
   }
 
   .template {
+    height: 135px;
+
     h1 {
       color: $orange;
       font-weight: bold;
       font-style: italic;
     }
-    .row {
-      height: 120px;
-    }
+
     .all {
-      height: 100%;
+      height: 135px;
       border-left: 1px solid #d6d6d6;
       border-right: 1px solid #d6d6d6;
       padding-top: 25px;
@@ -41,6 +41,7 @@
       a {
         color: #767676;
         text-align: center;
+        font-size: 13px;
 
         i {
           margin-left: 40px;
@@ -51,6 +52,93 @@
           text-decoration: none;
         }
       }
+    }
+  }
+
+  .template_web {
+    background-color: #e6e6e6;
+    padding-top: 60px;
+    border-bottom: 1px solid #d6d6d6;
+
+    .col_1 {
+      color: #00608c;
+      font-style: italic;
+      
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .pack {
+      -webkit-box-shadow: -5px 0 7px -5px #333;
+    }
+
+    .package_description {
+      padding: 25px 15px 10px;
+      border-bottom: 1px solid #e6e6e6;
+
+      h4 {
+        font-style: italic;
+        font-weight: bold;
+      }
+      p {
+        font-size: 13px;
+      }
+    }
+
+    .recommended {
+      width: 110px;
+      position: absolute;
+      margin: auto;
+      top: -7px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 3px;
+      p {
+        font-size: 12px;
+      }
+
+
+    }
+
+    .bgc_white {
+      background-color: #ffffff;
+    }
+    .bgc_blue {
+      background-color: #009ae2;
+      color: #ffffff;
+    }
+    .bgc_darkblue {
+      background-color: #00608c;
+      color: #ffffff;
+    }
+    .bgc_orange {
+      background-color: #f8a01a;
+      color: #ffffff;
+    }
+
+    .price {
+      background-color: #ffffff;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      p {
+        margin: 0px;
+      }
+
+    }
+    .col_lightblue {
+      color: #35B7F3;
+    }
+    .col_blue {
+      color: #009ae2;
+    }
+    .col_darkblue {
+      color: #00608c;
+    }
+    .col_orange {
+      color: #f8a01a;
     }
   }
 }
