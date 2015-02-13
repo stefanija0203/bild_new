@@ -1,0 +1,25 @@
+.package {
+  .tabs {
+    background-color: #0099e1;
+
+    ul {
+      list-style-type: none;
+      padding: 0px;
+      text-align: center;
+      
+      li {
+        padding: 2px 0px 5px;
+        a {
+          color: $darkblue;
+        }
+      }
+      
+      li.active {
+        background-color: #00608c;
+        a {
+          color: #ffffff;
+        }
+      } 
+    }  
+  }
+}
