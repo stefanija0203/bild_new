@@ -1,5 +1,5 @@
 .no-padding {
-  padding: 0px;
+  padding: 0px !important;
 }
 .no-padding-left {
   padding-left: 0px;
@@ -19,7 +19,7 @@
 .col_orange {
   color: #f8a01a;
 }
-.col_lightgrey {
+.col_lightgray {
   color: #bbbbbb;
 }
 .btn-orange {
@@ -41,10 +41,30 @@
     border: 1px solid #f8a01a;
   }
 }
-.back_col_grey {
+.back_col_gray {
   background-color: #e6e6e6;
 }
 
 .no-border-radius {
   border-radius: 0px;
+}
+
+.nav-tabs {
+  li {
+    position: relative;
+    a {
+      border-radius: 0px;
+      margin: 0px;
+      border: none;
+    }
+    &.active {
+      a {
+        border: none;
+        border-bottom-style: transparent;
+        &:hover {
+          border: none;
+        }
+      }
+    }
+  }
 }

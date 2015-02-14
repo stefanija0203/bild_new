@@ -43,3 +43,4 @@ $(function() {
       $(this).toggleClass('checked').prev().prop('checked',$(this).is('.checked'))
   });
 })
+
