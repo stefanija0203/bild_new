@@ -5,7 +5,7 @@
   padding-left: 0px;
 }
 .no-margin {
-  margin: 0px;
+  margin: 0px !important;
 }
 .col_lightblue {
   color: #35B7F3;
@@ -21,6 +21,13 @@
 }
 .col_lightgray {
   color: #bbbbbb;
+}
+.btn {
+  border-radius: 0px;
+  &:focus {
+    outline: none;
+    -webkit-box-shadow: none
+  }
 }
 .btn-orange {
   background-color: #f8a01a;
