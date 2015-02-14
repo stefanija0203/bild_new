@@ -2,4 +2,15 @@
   .tabs {
     @include tabs;
   }
+
+  #choose_panel {
+    background-color: #e6e6e6;
+    padding: 50px 0px;
+    .row {
+      margin: 40px 0px;
+    }
+    .portlet {
+      @include portlet;
+    }
+  }
 }
