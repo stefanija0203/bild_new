@@ -14,17 +14,17 @@ $(function() {
 });
 
 $(function() {
-  $("td").mouseover(function() {
+  $("#myTable td").mouseover(function() {
     var targetIndex, elements;
     targetIndex = $(this).index() + 1;
     elements = $("td");
     elements.filter(":nth-child(" + targetIndex + ")").css("background-color", "#eff9fe");
     elements.not(":nth-child(" + targetIndex + ")").css("background-color", "transparent");
   });
-  $("table").mouseleave(function() {
+  $("#myTable table").mouseleave(function() {
     $("td").css("background-color", "transparent");
   });
-  $("tr:last-child td").mouseover(function() {
+  $("#myTable tr:last-child td").mouseover(function() {
     $("td").css("background-color", "transparent");
   });
 });
@@ -35,3 +35,11 @@ $(function() {
   });
 });
 
+$(function() {
+  $('.input_class_checkbox').each(function(){
+    $(this).hide().after('<div class="class_checkbox" />');
+  });
+  $('.class_checkbox').on('click',function(){
+      $(this).toggleClass('checked').prev().prop('checked',$(this).is('.checked'))
+  });
+})

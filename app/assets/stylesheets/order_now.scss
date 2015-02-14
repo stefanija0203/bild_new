@@ -2,10 +2,20 @@
   .tabs {
     @include tabs;
   }
+  
+  #title {
+    padding: 20px;
+    background-color: #ffffff;
+    h1 {
+      font-weight: bold;
+      color: $orange;
+      font-style: italic;
+    }
+  }
 
   #choose_panel  {
     background-color: #e6e6e6;
-    padding: 50px 0px;
+    padding-bottom: 50px;
 
     .row {
       margin-top: 40px;
@@ -23,6 +33,56 @@
 
     #table {
       @include table;
+    }
+  }
+
+  #choose_add_panel {
+    #add_form {
+      background-color: #e6e6e6;
+      padding: 50px 0px;
+
+      #choose_form {
+        border: 1px solid #dddddd;
+        background-color: #ffffff;
+
+        .check_list {
+          border-bottom: 1px solid #dddddd;
+
+          label {
+            padding: 0px;
+          }
+
+          .class_checkbox {
+            width: 30px;  
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid #009ae2;
+            background-color: #ffffff;
+            margin: -5px 5px 0px 0px;
+            float: left;
+          }
+          .class_checkbox.checked {
+            background-image: asset-url("check.png");
+            background-position: center;
+            background-size: 32px 32px;
+
+          }
+        }
+
+        .form {
+          background-color: #ffffff;
+
+
+          .btn {
+            margin-top: 15px;
+
+            &:last-child {
+              border: none;
+            }
+          }
+
+        }
+      }
     }
   }
 }
