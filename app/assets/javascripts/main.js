@@ -28,3 +28,9 @@ $(function() {
     $("td").css("background-color", "transparent");
   });
 });
+
+$(function() {
+  $(".table a").hover(function() {
+    $(this).toggleClass("btn-orange-o btn-orange");
+  });
+});

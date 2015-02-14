@@ -22,3 +22,22 @@
 .col_lightgrey {
   color: #bbbbbb;
 }
+.btn-orange {
+  background-color: #f8a01a;
+  color: #ffffff;
+  &:hover, &:focus {
+    background-color: #f8a01a;
+    color: #ffffff;
+  }
+}
+.btn-orange-o {
+  background-color: #ffffff;
+  color: #f8a01a;
+  border: 1px solid #f8a01a;
+  
+  &:hover, &:focus {
+    background-color: #ffffff;
+    color: #f8a01a;
+    border: 1px solid #f8a01a;
+  }
+}
