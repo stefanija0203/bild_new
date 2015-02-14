@@ -1,9 +1,9 @@
-// $(function() {
-//   var url = window.location;
-//   $('#navbar ul.nav a').filter(function() {
-//       return this.href == url;
-//   }).parent().addClass('active');
-// });
+$(function() {
+  var url = window.location;
+  $('#navbar ul.nav a').filter(function() {
+      return this.href == url;
+  }).parent().addClass('active');
+});
 
 $(function() {
   $(".rslides").responsiveSlides({
@@ -30,7 +30,7 @@ $(function() {
 });
 
 $(function() {
-  $(".table a").hover(function() {
+  $("#myTable a").hover(function() {
     $(this).toggleClass("btn-orange-o btn-orange");
   });
 });

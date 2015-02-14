@@ -1,0 +1,55 @@
+<div id="order_now">
+  <section class="tabs">
+    <div class="container">
+      <ul>
+        <li class="active col-sm-4">
+          <a href="#">Other service package</a>
+        </li>
+        <li class="col-sm-4">
+          <a href="#">Choose an order dedicated team</a>
+        </li>
+        <li class="col-sm-4">
+          <a href="#">Order our specfic service</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="tabs">
+    <div class="container">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#choose" role="tab" data-toggle="tab">choose</a>
+        </li>
+        <li role="presentation">
+          <a href="#select" role="tab" data-toggle="tab">select</a>
+        </li>
+        <li role="presentation">
+          <a href="#choose_add" role="tab" data-toggle="tab">choose_add</a>
+        </li>
+        <li role="presentation">
+          <a href="#project_and_contact" role="tab" data-toggle="tab">project_and_contact</a>
+        </li>
+      </ul>
+
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="choose">
+          <%= render 'layouts/choose' %>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="select">
+          <%= render 'layouts/select' %>
+          
+        </div>
+        <div role="tabpanel" class="tab-pane" id="choose_add">
+          <%= render 'layouts/choose_add' %>
+          
+        </div>
+        <div role="tabpanel" class="tab-pane" id="project_and_contact">
+          <%= render 'layouts/project' %>
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>

@@ -35,6 +35,9 @@ header {
       background-color: #012638 !important;
       color: #ffffff !important;
     }
+    li:last-child.active a {
+      color: #012638 !important;
+    }
 
   }
 
