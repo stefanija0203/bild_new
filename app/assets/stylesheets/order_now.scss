@@ -3,14 +3,26 @@
     @include tabs;
   }
 
-  #choose_panel {
+  #choose_panel  {
     background-color: #e6e6e6;
     padding: 50px 0px;
+
     .row {
-      margin: 40px 0px;
+      margin-top: 40px;
+      margin-bottom: 40px;
     }
     .portlet {
       @include portlet;
+    }
+  }
+
+  #select_panel {
+    .template_web {
+      @include template_web;
+    }
+
+    #table {
+      @include table;
     }
   }
 }

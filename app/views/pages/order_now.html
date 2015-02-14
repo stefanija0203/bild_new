@@ -34,23 +34,19 @@
     </div>
   </section>
 
-  <section class="back_col_grey">
-    <div class="container">
-      <div class="row">
-        <div class="tab-content">
-          <div role="tabpanel" class="tab-pane active" id="choose">
-            <%= render 'layouts/choose' %>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="select">
-            <%= render 'layouts/select' %>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="choose_add">
-            <%= render 'layouts/choose_add' %>
-          </div>
-          <div role="tabpanel" class="tab-pane" id="project_and_contact">
-            <%= render 'layouts/project' %>
-          </div>
-        </div>
+  <section id="tab_panels">
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane active" id="choose">
+        <%= render 'layouts/choose' %>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="select">
+        <%= render 'layouts/select' %>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="choose_add">
+        <%= render 'layouts/choose_add' %>
+      </div>
+      <div role="tabpanel" class="tab-pane" id="project_and_contact">
+        <%= render 'layouts/project' %>
       </div>
     </div>
   </section>
