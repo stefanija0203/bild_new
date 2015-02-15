@@ -42,5 +42,4 @@ $(function() {
   $('.class_checkbox').on('click',function(){
       $(this).toggleClass('checked').prev().prop('checked',$(this).is('.checked'))
   });
-})
-
+});
