@@ -7,17 +7,26 @@
 .no-margin {
   margin: 0px !important;
 }
+
+$orange: #f8a01a;
+$lightblue: #35B7F3;
+$blue: #009ae2;
+$darkblue: #00608c;
+$headerblue: #012638;
+$lightgray: #e6e6e6;
+
+
 .col_lightblue {
-  color: #35B7F3;
+  color: $lightblue;
 }
 .col_blue {
-  color: #009ae2;
+  color: $blue;
 }
 .col_darkblue {
-  color: #00608c;
+  color: $darkblue;
 }
 .col_orange {
-  color: #f8a01a;
+  color: $orange;
 }
 .col_lightgray {
   color: #bbbbbb;
@@ -26,26 +35,26 @@
   border-radius: 0px;
   &:focus {
     outline: none;
-    -webkit-box-shadow: none
+    -webkit-box-shadow: none;
   }
 }
 .btn-orange {
-  background-color: #f8a01a;
-  color: #ffffff;
+  background-color: $orange;
+  color: white;
   &:hover, &:focus {
-    background-color: #f8a01a;
-    color: #ffffff;
+    background-color: $orange;
+    color: white;
   }
 }
 .btn-orange-o {
-  background-color: #ffffff;
-  color: #f8a01a;
-  border: 1px solid #f8a01a;
+  background-color: white;
+  color: $orange;
+  border: 1px solid $orange;
   
   &:hover, &:focus {
-    background-color: #ffffff;
-    color: #f8a01a;
-    border: 1px solid #f8a01a;
+    background-color: white;
+    color: $orange;
+    border: 1px solid $orange;
   }
 }
 .back_col_gray {

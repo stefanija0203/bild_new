@@ -19,7 +19,7 @@
           width: 560px;
           border: none;
           border-right: 1px solid #eeeeee;
-          -webkit-box-shadow: 4px0px 4px 0px rgba(180, 180, 180, 0.2), -4px0px 4px 0px rgba(180, 180, 180, 0.2);
+          -webkit-box-shadow: 4px 0px 4px 0px rgba(180, 180, 180, 0.2), -4px 0px 4px 0px rgba(180, 180, 180, 0.2);
           .tab .description {
             display: block;
           }
@@ -30,7 +30,7 @@
             display: block;
             z-index: 1;
             border-width: 10px 10px 0px;
-            border-color: #ffffff transparent;
+            border-color: white transparent;
             bottom: -10px;
             margin-left: 250px;
           }
@@ -42,7 +42,7 @@
             height: 100%;
             float: left;
             p {
-              color: #f8a01a;
+              color: $orange;
               font-size: 120px;
               line-height: 120px;
               font-weight: bold;
@@ -65,7 +65,7 @@
             float: right;
             padding: 5px 20px 0px 0px;
             h3 {
-              color: #f8a01a;
+              color: $orange;
               font-weight: bold;
             }
             p{
@@ -81,7 +81,7 @@
   /*tab_1*/
 
   #choose_panel  {
-    background-color: #e6e6e6;
+    background-color: $lightgray;
     padding-bottom: 50px;
 
     .row {
@@ -111,12 +111,12 @@
 
   #choose_add_panel {
     #add_form {
-      background-color: #e6e6e6;
+      background-color: $lightgray;
       padding: 50px 0px;
 
       #choose_form {
         border: 1px solid #dddddd;
-        background-color: #ffffff;
+        background-color: white;
 
         .nav-tabs {
           border-bottom: 2px solid #dddddd;
@@ -134,8 +134,8 @@
             }
             &.active {
               a {
-                background-color: #009ae2;
-                color: #ffffff;
+                background-color: $blue;
+                color: white;
               }
             }
           }
@@ -147,7 +147,7 @@
             display: block;
             z-index: 1;
             border-width: 10px 10px 0px;
-            border-color: #009ae2 transparent;
+            border-color: $blue transparent;
             bottom: -10px;
             margin-left: 158px;
           }
@@ -169,12 +169,12 @@
             p {
               float: right;
               padding-left: 4px;
-              background-color: #ffffff;
+              background-color: white;
             }
             label {
               padding: 0px;
               padding-right: 4px;
-              background-color: #ffffff;
+              background-color: white;
             }
           }
 
@@ -182,8 +182,8 @@
             width: 30px;  
             height: 30px;
             border-radius: 50%;
-            border: 1px solid #009ae2;
-            background-color: #ffffff;
+            border: 1px solid $blue;
+            background-color: white;
             margin: -5px 5px 0px 0px;
             float: left;
             
@@ -196,7 +196,7 @@
         }
 
         .form {
-          background-color: #ffffff;
+          background-color: white;
           padding-top: 15px;
 
           .btn {
@@ -228,7 +228,7 @@
 
   #project_panel {
     #order_panel {
-      background-color: #e6e6e6;
+      background-color: $lightgray;
       padding: 50px 0px 70px;
 
       .panel {
@@ -236,8 +236,8 @@
         margin-bottom: 0px;
 
         .panel-heading {
-          background-color: #00608c;
-          color: #ffffff;
+          background-color: $darkblue;
+          color: white;
           border-radius: 0px;
           padding: 15px;
 
@@ -254,8 +254,8 @@
             border-bottom: 1px solid #dddddd;
             &:last-child {
               border: none;
-              background-color: #00608c;
-              color: #ffffff;
+              background-color: $darkblue;
+              color: white;
               padding: 15px;
               h3 {
                 font-weight: bold;
@@ -268,12 +268,12 @@
                 width: 24px;
                 height: 24px;
                 border-radius: 50%;
-                background-color: #f8a01a;
+                background-color: $orange;
                 float: left;
                 margin-right: 10px;
 
                 p {
-                  color: #ffffff;
+                  color: white;
                   text-align: center;
                   font-size: 16px;
                   font-weight: bold;
@@ -283,7 +283,7 @@
               }
 
               h4 {
-                color: #f8a01a;
+                color: $orange;
                 font-size: 16px;
                 text-transform: uppercase;
                 vertical-align: inherit;
@@ -292,7 +292,7 @@
             }
 
             .price {
-              color: #00608c;
+              color: $darkblue;
               margin-top: 25px;
             }
 
@@ -342,7 +342,7 @@
             .btn-green {
               background-color: #49b009;
               border: none;
-              color: #ffffff;
+              color: white;
               font-size: 18px;
               padding: 10px 15px;
               margin-top: 20px;

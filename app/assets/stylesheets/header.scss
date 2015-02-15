@@ -10,33 +10,33 @@ body {
 
 header {
   width: 100%;
-  background-color: #012638;
+  background-color: $headerblue;
   
   .nav {
     li a {
-      color: #ffffff;
+      color: white;
     }
     li:last-child a {
       color: #3495c0;
     }
     li a:hover, li a:focus {
       background-color: #013751;
-      color: #ffffff;
+      color: white;
     }
     .active a {
       background-color: #0099e1;
-      color: #012638;
+      color: $headerblue;
       &:hover {
         background-color: #0099e1;
-        color: #012638;
+        color: $headerblue;
       }
     }
     li:first-child.active a {
-      background-color: #012638 !important;
-      color: #ffffff !important;
+      background-color: $headerblue !important;
+      color: white !important;
     }
     li:last-child.active a {
-      color: #012638 !important;
+      color: $headerblue !important;
     }
 
   }

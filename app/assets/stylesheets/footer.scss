@@ -1,6 +1,6 @@
 .footer {
   padding-top: 50px;
-  background-color: $darkblue;
+  background-color: $headerblue;
   color: #314E5C;
 
   .bottom20 {
@@ -8,7 +8,7 @@
   }
 
   h5 {
-    color: #ffffff;
+    color: white;
     display: inline;
     font-size: 17px;
     margin-left: 4px;
@@ -58,6 +58,6 @@
   }
 
   .more_about_us:hover, .contact :hover, ul li:hover {
-    color: #ffffff;
+    color: white;
   }
 }
