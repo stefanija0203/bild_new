@@ -15,7 +15,9 @@ $darkblue: #00608c;
 $headerblue: #012638;
 $lightgray: #e6e6e6;
 
-
+.col_gray {
+  color: $lightgray;
+}
 .col_lightblue {
   color: $lightblue;
 }
@@ -25,8 +27,14 @@ $lightgray: #e6e6e6;
 .col_darkblue {
   color: $darkblue;
 }
+.col_templateblue {
+  color: #005278;
+}
 .col_orange {
   color: $orange;
+}
+.col_templateorange {
+  color: #E78C00;
 }
 .col_lightgray {
   color: #bbbbbb;
