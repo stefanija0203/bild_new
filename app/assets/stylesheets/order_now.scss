@@ -9,14 +9,14 @@
     .nav-tabs {
       height: 140px;
       li {
-        width: 120px;
+        width: 140px;
         height: 100%;
         border-right: 1px solid #eeeeee;
         &:first-child, &:first-child.active {
           border-left: 1px solid #eeeeee;
         }
         &.active {
-          width: 520px;
+          width: 560px;
           border: none;
           border-right: 1px solid #eeeeee;
           -webkit-box-shadow: 4px0px 4px 0px rgba(180, 180, 180, 0.2), -4px0px 4px 0px rgba(180, 180, 180, 0.2);
@@ -38,7 +38,7 @@
         .tab {
           position: relative;
           .tab_number {
-            width: 120px;
+            width: 140px;
             height: 100%;
             float: left;
             p {
@@ -60,11 +60,10 @@
           }
           .description {
             display: none;
-            width: 380px;
+            width: 410px;
             height: 140px;
             float: right;
-            padding: 3px;
-            padding: 5px 10px 0px 0px;
+            padding: 5px 20px 0px 0px;
             h3 {
               color: #f8a01a;
               font-weight: bold;
